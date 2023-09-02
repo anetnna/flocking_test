@@ -264,7 +264,7 @@ def test_maps_2():
 
 
 if __name__ == "__main__":
-    filename_maps = './scenario_template/test_env/maps_data.json'
-    filename_trail = './scenario_template/test_env/ware_house_test.json'
+    filename_maps = './test_env/maps_data.json'
+    filename_trail = './test_env/ware_house_test.json'
     test_maps(filename_maps, filename_trail)
     # test_load_from_file(filename_trail)
