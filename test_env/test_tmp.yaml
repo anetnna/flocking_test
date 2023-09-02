@@ -1,0 +1,1606 @@
+envs:
+- edges:
+  - e_con:
+    - 5.0
+    - 2.5
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 2.5
+    s_node_idx: 0
+    s_pos:
+    - 1.25
+    - 1.25
+  - e_con:
+    - 2.5
+    - 5.0
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 5.0
+    s_node_idx: 0
+    s_pos:
+    - 1.25
+    - 1.25
+  - e_con:
+    - 5.0
+    - 2.5
+    e_node_idx: 0
+    e_pos:
+    - 1.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 2.5
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 10.0
+    - 2.5
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 2.5
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 7.5
+    - 5.0
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 5.0
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 10.0
+    - 2.5
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 2.5
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 15.0
+    - 2.5
+    e_node_idx: 3
+    e_pos:
+    - 8.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 2.5
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 12.5
+    - 5.0
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 5.0
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 15.0
+    - 2.5
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 2.5
+    s_node_idx: 3
+    s_pos:
+    - 8.75
+    - 1.25
+  - e_con:
+    - 17.5
+    - 5.0
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 5.0
+    s_node_idx: 3
+    s_pos:
+    - 8.75
+    - 1.25
+  - e_con:
+    - 2.5
+    - 5.0
+    e_node_idx: 0
+    e_pos:
+    - 1.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 5.0
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 5.0
+    - 7.5
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 7.5
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 2.5
+    - 10.0
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 10.0
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 7.5
+    - 5.0
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 5.0
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 5.0
+    - 7.5
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 7.5
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 10.0
+    - 7.5
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 7.5
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 7.5
+    - 10.0
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 10.0
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 12.5
+    - 5.0
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 5.0
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 10.0
+    - 7.5
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 7.5
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 15.0
+    - 7.5
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 7.5
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 12.5
+    - 10.0
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 10.0
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 17.5
+    - 5.0
+    e_node_idx: 3
+    e_pos:
+    - 8.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 5.0
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 15.0
+    - 7.5
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 7.5
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 17.5
+    - 10.0
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 10.0
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 2.5
+    - 10.0
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 10.0
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 5.0
+    - 12.5
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 12.5
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 2.5
+    - 15.0
+    e_node_idx: 12
+    e_pos:
+    - 1.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 15.0
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 7.5
+    - 10.0
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 10.0
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 5.0
+    - 12.5
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 12.5
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 10.0
+    - 12.5
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 12.5
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 7.5
+    - 15.0
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 15.0
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 12.5
+    - 10.0
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 10.0
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 10.0
+    - 12.5
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 12.5
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 15.0
+    - 12.5
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 12.5
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 12.5
+    - 15.0
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 15.0
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 17.5
+    - 10.0
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 10.0
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 15.0
+    - 12.5
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 12.5
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 17.5
+    - 15.0
+    e_node_idx: 15
+    e_pos:
+    - 8.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 15.0
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 2.5
+    - 15.0
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 15.0
+    s_node_idx: 12
+    s_pos:
+    - 1.25
+    - 8.75
+  - e_con:
+    - 5.0
+    - 17.5
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 17.5
+    s_node_idx: 12
+    s_pos:
+    - 1.25
+    - 8.75
+  - e_con:
+    - 7.5
+    - 15.0
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 15.0
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 5.0
+    - 17.5
+    e_node_idx: 12
+    e_pos:
+    - 1.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 17.5
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 10.0
+    - 17.5
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 17.5
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 12.5
+    - 15.0
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 15.0
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 10.0
+    - 17.5
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 17.5
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 15.0
+    - 17.5
+    e_node_idx: 15
+    e_pos:
+    - 8.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 17.5
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 17.5
+    - 15.0
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 15.0
+    s_node_idx: 15
+    s_pos:
+    - 8.75
+    - 8.75
+  - e_con:
+    - 15.0
+    - 17.5
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 17.5
+    s_node_idx: 15
+    s_pos:
+    - 8.75
+    - 8.75
+  nodes:
+  - attribute: 0
+    idx: 0
+    pos:
+    - 1.25
+    - 1.25
+  - attribute: 0
+    idx: 1
+    pos:
+    - 3.75
+    - 1.25
+  - attribute: 0
+    idx: 2
+    pos:
+    - 6.25
+    - 1.25
+  - attribute: 0
+    idx: 3
+    pos:
+    - 8.75
+    - 1.25
+  - attribute: 0
+    idx: 4
+    pos:
+    - 1.25
+    - 3.75
+  - attribute: 0
+    idx: 5
+    pos:
+    - 3.75
+    - 3.75
+  - attribute: 0
+    idx: 6
+    pos:
+    - 6.25
+    - 3.75
+  - attribute: 0
+    idx: 7
+    pos:
+    - 8.75
+    - 3.75
+  - attribute: 0
+    idx: 8
+    pos:
+    - 1.25
+    - 6.25
+  - attribute: 0
+    idx: 9
+    pos:
+    - 3.75
+    - 6.25
+  - attribute: 0
+    idx: 10
+    pos:
+    - 6.25
+    - 6.25
+  - attribute: 0
+    idx: 11
+    pos:
+    - 8.75
+    - 6.25
+  - attribute: 0
+    idx: 12
+    pos:
+    - 1.25
+    - 8.75
+  - attribute: 0
+    idx: 13
+    pos:
+    - 3.75
+    - 8.75
+  - attribute: 0
+    idx: 14
+    pos:
+    - 6.25
+    - 8.75
+  - attribute: 0
+    idx: 15
+    pos:
+    - 8.75
+    - 8.75
+- edges:
+  - e_con:
+    - 5.0
+    - 2.5
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 2.5
+    s_node_idx: 0
+    s_pos:
+    - 1.25
+    - 1.25
+  - e_con:
+    - 2.5
+    - 5.0
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 5.0
+    s_node_idx: 0
+    s_pos:
+    - 1.25
+    - 1.25
+  - e_con:
+    - 5.0
+    - 2.5
+    e_node_idx: 0
+    e_pos:
+    - 1.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 2.5
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 10.0
+    - 2.5
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 2.5
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 7.5
+    - 5.0
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 5.0
+    s_node_idx: 1
+    s_pos:
+    - 3.75
+    - 1.25
+  - e_con:
+    - 10.0
+    - 2.5
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 2.5
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 15.0
+    - 2.5
+    e_node_idx: 3
+    e_pos:
+    - 8.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 2.5
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 12.5
+    - 5.0
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 5.0
+    s_node_idx: 2
+    s_pos:
+    - 6.25
+    - 1.25
+  - e_con:
+    - 15.0
+    - 2.5
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 2.5
+    s_node_idx: 3
+    s_pos:
+    - 8.75
+    - 1.25
+  - e_con:
+    - 17.5
+    - 5.0
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 5.0
+    s_node_idx: 3
+    s_pos:
+    - 8.75
+    - 1.25
+  - e_con:
+    - 2.5
+    - 5.0
+    e_node_idx: 0
+    e_pos:
+    - 1.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 5.0
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 5.0
+    - 7.5
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 7.5
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 2.5
+    - 10.0
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 10.0
+    s_node_idx: 4
+    s_pos:
+    - 1.25
+    - 3.75
+  - e_con:
+    - 7.5
+    - 5.0
+    e_node_idx: 1
+    e_pos:
+    - 3.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 5.0
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 5.0
+    - 7.5
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 7.5
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 10.0
+    - 7.5
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 7.5
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 7.5
+    - 10.0
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 10.0
+    s_node_idx: 5
+    s_pos:
+    - 3.75
+    - 3.75
+  - e_con:
+    - 12.5
+    - 5.0
+    e_node_idx: 2
+    e_pos:
+    - 6.25
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 5.0
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 10.0
+    - 7.5
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 7.5
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 15.0
+    - 7.5
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 7.5
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 12.5
+    - 10.0
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 10.0
+    s_node_idx: 6
+    s_pos:
+    - 6.25
+    - 3.75
+  - e_con:
+    - 17.5
+    - 5.0
+    e_node_idx: 3
+    e_pos:
+    - 8.75
+    - 1.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 5.0
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 15.0
+    - 7.5
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 7.5
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 17.5
+    - 10.0
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 10.0
+    s_node_idx: 7
+    s_pos:
+    - 8.75
+    - 3.75
+  - e_con:
+    - 2.5
+    - 10.0
+    e_node_idx: 4
+    e_pos:
+    - 1.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 10.0
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 5.0
+    - 12.5
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 12.5
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 2.5
+    - 15.0
+    e_node_idx: 12
+    e_pos:
+    - 1.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 15.0
+    s_node_idx: 8
+    s_pos:
+    - 1.25
+    - 6.25
+  - e_con:
+    - 7.5
+    - 10.0
+    e_node_idx: 5
+    e_pos:
+    - 3.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 10.0
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 5.0
+    - 12.5
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 12.5
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 10.0
+    - 12.5
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 12.5
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 7.5
+    - 15.0
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 15.0
+    s_node_idx: 9
+    s_pos:
+    - 3.75
+    - 6.25
+  - e_con:
+    - 12.5
+    - 10.0
+    e_node_idx: 6
+    e_pos:
+    - 6.25
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 10.0
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 10.0
+    - 12.5
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 12.5
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 15.0
+    - 12.5
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 12.5
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 12.5
+    - 15.0
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 15.0
+    s_node_idx: 10
+    s_pos:
+    - 6.25
+    - 6.25
+  - e_con:
+    - 17.5
+    - 10.0
+    e_node_idx: 7
+    e_pos:
+    - 8.75
+    - 3.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 10.0
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 15.0
+    - 12.5
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 12.5
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 17.5
+    - 15.0
+    e_node_idx: 15
+    e_pos:
+    - 8.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 15.0
+    s_node_idx: 11
+    s_pos:
+    - 8.75
+    - 6.25
+  - e_con:
+    - 2.5
+    - 15.0
+    e_node_idx: 8
+    e_pos:
+    - 1.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 2.5
+    - 15.0
+    s_node_idx: 12
+    s_pos:
+    - 1.25
+    - 8.75
+  - e_con:
+    - 5.0
+    - 17.5
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 17.5
+    s_node_idx: 12
+    s_pos:
+    - 1.25
+    - 8.75
+  - e_con:
+    - 7.5
+    - 15.0
+    e_node_idx: 9
+    e_pos:
+    - 3.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 7.5
+    - 15.0
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 5.0
+    - 17.5
+    e_node_idx: 12
+    e_pos:
+    - 1.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 5.0
+    - 17.5
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 10.0
+    - 17.5
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 17.5
+    s_node_idx: 13
+    s_pos:
+    - 3.75
+    - 8.75
+  - e_con:
+    - 12.5
+    - 15.0
+    e_node_idx: 10
+    e_pos:
+    - 6.25
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 12.5
+    - 15.0
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 10.0
+    - 17.5
+    e_node_idx: 13
+    e_pos:
+    - 3.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 10.0
+    - 17.5
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 15.0
+    - 17.5
+    e_node_idx: 15
+    e_pos:
+    - 8.75
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 17.5
+    s_node_idx: 14
+    s_pos:
+    - 6.25
+    - 8.75
+  - e_con:
+    - 17.5
+    - 15.0
+    e_node_idx: 11
+    e_pos:
+    - 8.75
+    - 6.25
+    line_state: 1.0
+    s_con:
+    - 17.5
+    - 15.0
+    s_node_idx: 15
+    s_pos:
+    - 8.75
+    - 8.75
+  - e_con:
+    - 15.0
+    - 17.5
+    e_node_idx: 14
+    e_pos:
+    - 6.25
+    - 8.75
+    line_state: 1.0
+    s_con:
+    - 15.0
+    - 17.5
+    s_node_idx: 15
+    s_pos:
+    - 8.75
+    - 8.75
+  nodes:
+  - attribute: 0
+    idx: 0
+    pos:
+    - 1.25
+    - 1.25
+  - attribute: 0
+    idx: 1
+    pos:
+    - 3.75
+    - 1.25
+  - attribute: 0
+    idx: 2
+    pos:
+    - 6.25
+    - 1.25
+  - attribute: 0
+    idx: 3
+    pos:
+    - 8.75
+    - 1.25
+  - attribute: 0
+    idx: 4
+    pos:
+    - 1.25
+    - 3.75
+  - attribute: 0
+    idx: 5
+    pos:
+    - 3.75
+    - 3.75
+  - attribute: 0
+    idx: 6
+    pos:
+    - 6.25
+    - 3.75
+  - attribute: 0
+    idx: 7
+    pos:
+    - 8.75
+    - 3.75
+  - attribute: 0
+    idx: 8
+    pos:
+    - 1.25
+    - 6.25
+  - attribute: 0
+    idx: 9
+    pos:
+    - 3.75
+    - 6.25
+  - attribute: 0
+    idx: 10
+    pos:
+    - 6.25
+    - 6.25
+  - attribute: 0
+    idx: 11
+    pos:
+    - 8.75
+    - 6.25
+  - attribute: 0
+    idx: 12
+    pos:
+    - 1.25
+    - 8.75
+  - attribute: 0
+    idx: 13
+    pos:
+    - 3.75
+    - 8.75
+  - attribute: 0
+    idx: 14
+    pos:
+    - 6.25
+    - 8.75
+  - attribute: 0
+    idx: 15
+    pos:
+    - 8.75
+    - 8.75
+max_size: 10
