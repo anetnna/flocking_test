@@ -150,7 +150,7 @@ def test_maps(filename_maps, filename_trail):
     nodes_num = col_nodes * row_nodes
     edges_num = 2 * (col_nodes * (row_nodes-1) + (col_nodes-1) * row_nodes)
     env_num = 2
-    grid_n = 540
+    grid_n = 54
     WINDOW_HEIGHT = 540
     AR = 1
     WINDOW_WIDTH = AR * WINDOW_HEIGHT
@@ -194,10 +194,7 @@ def test_maps_2():
             for k in range(env_num):
                 node_pos_vector_tmp[node_idx, k, 0] = (marign + node_dis * (i+1)) / grid_n * max_size
                 node_pos_vector_tmp[node_idx, k, 1] = (grid_n - (marign + node_dis * (j+1))) / grid_n * max_size
-                if i == 0:
-                    nodes_attribute[node_idx, k] = 1
-                else:
-                    nodes_attribute[node_idx, k] = 0
+                nodes_attribute[node_idx, k] = (i==0)
     
     a_mtraix_tmp = ti.field(shape=(nodes_num, nodes_num, env_num), dtype=ti.i8)
     for i in range(nodes_num):
@@ -264,7 +261,7 @@ def test_maps_2():
 
 
 if __name__ == "__main__":
-    filename_maps = './test_env/maps_data.json'
-    filename_trail = './test_env/ware_house_test.json'
+    filename_maps = './scenario_template/test_env/maps_data.json'
+    filename_trail = './scenario_template/test_env/ware_house_test.json'
     test_maps(filename_maps, filename_trail)
     # test_load_from_file(filename_trail)

@@ -15,7 +15,7 @@ parent_directory = os.path.abspath(os.path.join(current_directory, os.pardir))
 # Add the parent directory to the Python path
 sys.path.append(parent_directory)
 
-from utils.utils import vec2
+from utils.utils import vec2, interpolation
 
 
 @ti.dataclass
@@ -267,7 +267,10 @@ class Static_maps:
         self.field_map = ti.field(dtype=ti.u8,
                                   shape=(self.grid_n, self.grid_n, self.env_num),
                                   name="static field maps")
-        self.canvas = ti.field(dtype=ti.u8, shape=(self.grid_n, self.grid_n))
+        # self.canvas = ti.field(dtype=ti.u8, shape=(self.grid_n, self.grid_n))
+        self.canvas = ti.field(dtype=ti.u8, shape=(self.img_size, self.img_size),
+                               name="canvas field for plot")
+        self.canvas.fill(0)
 
         self.width = self.grid_n * self.grid_length
         self.height = self.grid_n * self.grid_length
@@ -305,16 +308,18 @@ class Static_maps:
 
     @ti.kernel
     def plot_maps_2_canvas(self, env_idx: int):
-        for x, y in ti.ndrange(self.grid_n, self.grid_n):
+        # for x, y in ti.ndrange(self.grid_n, self.grid_n):
             # self.canvas[x, y] = self.field_map[x, y, env_idx] / 255
-            field_x = x * self.grid_n // self.img_size
-            field_y = y * self.grid_n // self.img_size
+        for x, y in ti.ndrange(self.img_size, self.img_size):
+            field_x = (x * self.grid_n) // self.img_size
+            field_y = (y * self.grid_n) // self.img_size
             self.canvas[x, y] = self.field_map[field_x, field_y, env_idx]
 
 
     def render(self, gui, env_idx=0):
         # window_width, window_height = gui.res
-        self.plot_maps_2_canvas(env_idx)
+        # self.plot_maps_2_canvas(env_idx)
+        interpolation(self.canvas, self.field_map, env_idx, bilinear=0)
         # gui.contour(self.canvas, normalize=True)
         gui.set_image(self.canvas.to_numpy())
         self.trails.render(gui, env_idx)
