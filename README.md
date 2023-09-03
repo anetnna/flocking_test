@@ -1,5 +1,5 @@
 # flocking_test
-## How to visulize:
+## How to visualize:
 ```
 python test_maps.py
 ```
