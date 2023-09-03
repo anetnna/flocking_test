@@ -28,8 +28,6 @@ class Dynamic_maps:
         self.field_map = ti.field(dtype=ti.f32,
                                   shape=(self.grid_n, self.grid_n, self.env_num),
                                   name="dynamics field maps")
-        self.width = self.grid_m * self.grid_length
-        self.height = self.grid_n * self.grid_length
 
         self.bound_map = ti.field(dtype=ti.f32,
                                   shape=(self.grid_n, self.grid_n, self.env_num),
